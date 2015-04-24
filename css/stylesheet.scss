@@ -1,0 +1,371 @@
+$grey: #bfbfbf;
+$off_grey: #737373;
+$dark_grey: #4d4d4d;
+$very_dark_grey: #333333;
+
+$blue: #0000bf;
+$off_blue: #000073;
+$dark_blue: #00004d;
+$very_dark_blue: #00001a;
+
+$green: #00bf00;
+$off_green: #007300;
+$dark_green: #004d00;
+$very_dark_green: #001a00;
+
+$red: #bf0000;
+$off_red: #730000;
+$dark_red: #4d0000;
+$very_dark_red: #1a0000;
+
+$maintext: 'Roboto', sans-serif;
+$titletext: 'Open Sans', sans-serif;;
+
+@import url(http://fonts.googleapis.com/css?family=Roboto%7cOpen+Sans:700italic,700);
+@import url(http://meyerweb.com/eric/tools/css/reset/reset.css); //Clears all default css
+
+main {
+  display: block;
+}
+
+body {
+  font-family: $maintext;
+  overflow-y: scroll;
+}
+
+header {
+  background: linear-gradient($dark_grey, $very_dark_grey);
+  height: 50px;
+  padding: 25px 50px;
+
+  h1 {
+    font-family: $titletext;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 50px;
+    float: left;
+    text-shadow: 1px 1px #ffffff;
+
+    span:nth-child(1) {
+      color: $green;
+    }
+
+    span:nth-child(2) {
+      color: $blue;
+    }
+
+    span:nth-child(3) {
+      color: $red;
+    }
+  }
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    justify-content: flex-end;
+
+    a {
+      color: #ffffff;
+      display: block;
+      float: left;
+      font-size: 1em;
+      margin: 15px 10px 0;
+      position: relative;
+      text-decoration: none;
+      transition: color 0.4s ease;
+      z-index: 2;
+
+      &:before {
+        background: #ffffff;
+        content: '';
+        display: block;
+        float: left;
+        height: 1em;
+        left: -5%;
+        position: absolute;
+        transition: width 0.5s ease;
+        width: 0;
+        z-index: -1;
+      }
+
+      &:hover, &:focus {
+        color: #000000;
+
+        &:before {
+          width: 110%;
+        }
+      }
+    }
+  }
+}
+
+h2 {
+  border-bottom: 1px solid $off_grey;
+  border-top: 1px solid $off_grey;
+  color: $off_grey;
+  font-family: $titletext;
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-top: 0.4em;
+  padding: 0.25em 0;
+  text-align: center;
+}
+
+main {
+  left: 10%;
+  position: relative;
+  width: 80%;
+
+  h3 {
+    color: $off_grey;
+    font-family: $titletext;
+    font-size: 1.5em;
+    font-style: italic;
+    font-weight: bold;
+    padding: 1em 0 0.5em;
+  }
+
+  p {
+    line-height: 1.5em;
+  }
+
+  ul {
+    line-height: 1.3em;
+    margin: 1em 0 0 2em;
+  }
+
+  li {
+    list-style: disc;
+    margin-bottom: 1em;
+  }
+
+  table {
+    margin: 1em auto;
+
+    thead {
+      border: solid 1px $off_grey;
+
+      th {
+        border: solid 1px $off_grey;
+        font-weight: bold;
+        padding: 2px 5px;
+        text-align: center;
+      }
+    }
+
+    td {
+      border: 1px solid $off_grey;
+      padding: 2px 5px;
+    }
+  }
+
+  #check {
+    border: 2px outset $off-grey;
+    width: 200px;
+    text-align: center;
+    margin: 5px;
+
+    &:active {
+      border-style: inset;
+    }
+  }
+
+  img {
+    float: right;
+    margin: 0.3em;
+  }
+
+  section {
+    float: left;
+    width: 70%;
+
+    div {
+      padding: 0.5em;
+    }
+  }
+
+  aside {
+    float: left;
+    width: 30%;
+
+    div {
+      padding: 0.5em;
+    }
+  }
+}
+
+footer {
+  border-top: 1px solid $off_grey;
+  float: left;
+  width: 100%;
+
+  p {
+    font-size: 0.9em;
+    line-height: 1.5em;
+    text-align: center;
+  }
+}
+
+.normalsize {
+  width: 40%;
+
+  @media screen and (max-width: 1550px) {
+    width: 50%;
+  }
+
+  @media screen and (max-width: 960px) {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+.smallersize {
+  width: 40%;
+
+  @media screen and (max-width: 1550px) {
+    width: 50%;
+  }
+
+  @media screen and (max-width: 960px) {
+    width: 50%;
+  }
+}
+
+#index, #quiz {
+
+  section {
+    width: 100%;
+  }
+}
+
+#demand {
+  header {
+    background: linear-gradient($dark_green, $very_dark_green);
+  }
+
+  span:nth-child(1) {
+    color: $green;
+  }
+
+  h2 {
+    border-color: $off_green;
+    color: $off_green;
+  }
+
+  h3 {
+    color: $off_green;
+  }
+
+  th {
+    border-color: $off_green;
+  }
+
+  td {
+    border-color: $off_green;
+  }
+
+  footer {
+    border-color: $off_green;
+  }
+}
+
+#supply {
+  header {
+    background: linear-gradient($dark_blue, $very_dark_blue);
+  }
+
+  span:nth-child(2) {
+    color: $blue;
+  }
+
+  h2 {
+    border-color: $off_blue;
+    color: $off_blue;
+  }
+
+  h3 {
+    color: $off_blue;
+  }
+
+  th {
+    border-color: $off_blue;
+  }
+
+  td {
+    border-color: $off_blue;
+  }
+
+  footer {
+    border-color: $off_blue;
+  }
+}
+
+#market {
+  header {
+    background: linear-gradient($dark_red, $very_dark_red);
+  }
+
+  span:nth-child(3) {
+    color: $red;
+  }
+
+  h2 {
+    border-color: $off_red;
+    color: $off_red;
+  }
+
+  h3 {
+    color: $off_red;
+  }
+
+  th {
+    border-color: $off_red;
+  }
+
+  td {
+    border-color: $off_red;
+  }
+
+  footer {
+    border-color: $off_red;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  header {
+    height: 100px;
+
+    h1 {
+      float: none;
+      text-align: center;
+    }
+
+    nav {
+      float: none;
+      justify-content: center;
+    }
+  }
+
+  main {
+
+    aside {
+      li {
+        font-size: 0.8em;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  main {
+
+    section {
+      width: 100%;
+    }
+
+    aside {
+      display: none;
+    }
+  }
+}
