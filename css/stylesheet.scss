@@ -21,8 +21,8 @@ $very_dark_red: #1a0000;
 $maintext: 'Roboto', sans-serif;
 $titletext: 'Open Sans', sans-serif;;
 
-@import url(http://fonts.googleapis.com/css?family=Roboto%7cOpen+Sans:700italic,700);
-@import url(http://meyerweb.com/eric/tools/css/reset/reset.css); //Clears all default css
+@import url(//meyerweb.com/eric/tools/css/reset/reset.css); //Clears all default css
+@import url(//fonts.googleapis.com/css?family=Roboto%7cOpen+Sans:700italic,700);
 
 main {
   display: block;
