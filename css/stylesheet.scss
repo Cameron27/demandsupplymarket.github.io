@@ -1,3 +1,6 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700|Roboto+Slab:700); //Google fonts
+@import url(http://meyerweb.com/eric/tools/css/reset/reset.css); //Clears all default css
+
 $grey: #bfbfbf;
 $off_grey: #737373;
 $dark_grey: #4d4d4d;
@@ -18,18 +21,33 @@ $off_red: #730000;
 $dark_red: #4d0000;
 $very_dark_red: #1a0000;
 
-$maintext: 'Roboto', sans-serif;
-$titletext: 'Open Sans', sans-serif;;
+@mixin fontMain() {
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+}
 
-@import url(http://fonts.googleapis.com/css?family=Roboto%7cOpen+Sans:700italic,700);
-@import url(http://meyerweb.com/eric/tools/css/reset/reset.css); //Clears all default css
+@mixin fontBold() {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+
+@mixin fontHeader() {
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
+}
+
+@mixin fontTitle() {
+  font-family: 'Roboto Slab', serif;
+  font-style: italic;
+  font-weight: bold;
+}
 
 main {
   display: block;
 }
 
 body {
-  font-family: $maintext;
+  @include fontMain();
   overflow-y: scroll;
 }
 
@@ -39,23 +57,21 @@ header {
   padding: 25px 50px;
 
   h1 {
-    font-family: $titletext;
-    font-size: 40px;
-    font-weight: bold;
-    line-height: 50px;
+    @include fontHeader();
     float: left;
-    text-shadow: 1px 1px #ffffff;
+    font-size: 40px;
+    line-height: 50px;
 
     span:nth-child(1) {
-      color: $green;
+      color: white;
     }
 
     span:nth-child(2) {
-      color: $blue;
+      color: white;
     }
 
     span:nth-child(3) {
-      color: $red;
+      color: white;
     }
   }
 
@@ -101,12 +117,11 @@ header {
 }
 
 h2 {
+  @include fontHeader();
   border-bottom: 1px solid $off_grey;
   border-top: 1px solid $off_grey;
   color: $off_grey;
-  font-family: $titletext;
   font-size: 2.5em;
-  font-weight: bold;
   margin-top: 0.4em;
   padding: 0.25em 0;
   text-align: center;
@@ -118,11 +133,9 @@ main {
   width: 80%;
 
   h3 {
+    @include fontTitle();
     color: $off_grey;
-    font-family: $titletext;
     font-size: 1.5em;
-    font-style: italic;
-    font-weight: bold;
     padding: 1em 0 0.5em;
   }
 
@@ -147,8 +160,8 @@ main {
       border: solid 1px $off_grey;
 
       th {
+        @include fontBold();
         border: solid 1px $off_grey;
-        font-weight: bold;
         padding: 2px 5px;
         text-align: center;
       }
@@ -162,9 +175,9 @@ main {
 
   #check {
     border: 2px outset $off-grey;
-    width: 200px;
-    text-align: center;
     margin: 10px;
+    text-align: center;
+    width: 200px;
 
     &:active {
       border-style: inset;
@@ -244,10 +257,6 @@ footer {
     background: linear-gradient($dark_green, $very_dark_green);
   }
 
-  span:nth-child(1) {
-    color: $green;
-  }
-
   h2 {
     border-color: $off_green;
     color: $off_green;
@@ -275,10 +284,6 @@ footer {
     background: linear-gradient($dark_blue, $very_dark_blue);
   }
 
-  span:nth-child(2) {
-    color: $blue;
-  }
-
   h2 {
     border-color: $off_blue;
     color: $off_blue;
@@ -304,10 +309,6 @@ footer {
 #market {
   header {
     background: linear-gradient($dark_red, $very_dark_red);
-  }
-
-  span:nth-child(3) {
-    color: $red;
   }
 
   h2 {

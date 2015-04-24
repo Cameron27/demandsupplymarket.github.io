@@ -1,10 +1,11 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto%7cOpen+Sans:700italic,700);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700|Roboto+Slab:700);
 @import url(http://meyerweb.com/eric/tools/css/reset/reset.css);
 main {
   display: block; }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
   overflow-y: scroll; }
 
 header {
@@ -12,18 +13,17 @@ header {
   height: 50px;
   padding: 25px 50px; }
   header h1 {
-    font-family: "Open Sans", sans-serif;
-    font-size: 40px;
+    font-family: 'Roboto Slab', serif;
     font-weight: bold;
-    line-height: 50px;
     float: left;
-    text-shadow: 1px 1px #ffffff; }
+    font-size: 40px;
+    line-height: 50px; }
     header h1 span:nth-child(1) {
-      color: #00bf00; }
+      color: white; }
     header h1 span:nth-child(2) {
-      color: #0000bf; }
+      color: white; }
     header h1 span:nth-child(3) {
-      color: #bf0000; }
+      color: white; }
   header nav {
     display: flex;
     flex-direction: row;
@@ -56,12 +56,12 @@ header {
           width: 110%; }
 
 h2 {
+  font-family: 'Roboto Slab', serif;
+  font-weight: bold;
   border-bottom: 1px solid #737373;
   border-top: 1px solid #737373;
   color: #737373;
-  font-family: "Open Sans", sans-serif;
   font-size: 2.5em;
-  font-weight: bold;
   margin-top: 0.4em;
   padding: 0.25em 0;
   text-align: center; }
@@ -71,11 +71,11 @@ main {
   position: relative;
   width: 80%; }
   main h3 {
-    color: #737373;
-    font-family: "Open Sans", sans-serif;
-    font-size: 1.5em;
+    font-family: 'Roboto Slab', serif;
     font-style: italic;
     font-weight: bold;
+    color: #737373;
+    font-size: 1.5em;
     padding: 1em 0 0.5em; }
   main p {
     line-height: 1.5em; }
@@ -90,8 +90,9 @@ main {
     main table thead {
       border: solid 1px #737373; }
       main table thead th {
-        border: solid 1px #737373;
+        font-family: 'Roboto', sans-serif;
         font-weight: bold;
+        border: solid 1px #737373;
         padding: 2px 5px;
         text-align: center; }
     main table td {
@@ -99,9 +100,9 @@ main {
       padding: 2px 5px; }
   main #check {
     border: 2px outset #737373;
-    width: 200px;
+    margin: 10px;
     text-align: center;
-    margin: 10px; }
+    width: 200px; }
     main #check:active {
       border-style: inset; }
   main img {
@@ -151,8 +152,6 @@ footer {
 
 #demand header {
   background: linear-gradient(#004d00, #001a00); }
-#demand span:nth-child(1) {
-  color: #00bf00; }
 #demand h2 {
   border-color: #007300;
   color: #007300; }
@@ -167,8 +166,6 @@ footer {
 
 #supply header {
   background: linear-gradient(#00004d, #00001a); }
-#supply span:nth-child(2) {
-  color: #0000bf; }
 #supply h2 {
   border-color: #000073;
   color: #000073; }
@@ -183,8 +180,6 @@ footer {
 
 #market header {
   background: linear-gradient(#4d0000, #1a0000); }
-#market span:nth-child(3) {
-  color: #bf0000; }
 #market h2 {
   border-color: #730000;
   color: #730000; }
