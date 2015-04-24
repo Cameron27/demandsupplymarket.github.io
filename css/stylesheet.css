@@ -101,7 +101,7 @@ main {
     border: 2px outset #737373;
     width: 200px;
     text-align: center;
-    margin: 5px; }
+    margin: 10px; }
     main #check:active {
       border-style: inset; }
   main img {

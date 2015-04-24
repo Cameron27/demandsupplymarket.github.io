@@ -6,13 +6,12 @@ function setUpQuestion() {
 }
 
 function checkAnswer() {
-
 	
 	if (document.getElementById("a" + answers[count2]).checked) {
 		document.getElementById("answer").innerHTML = "CORRECT";
 	}
 	else {
-		document.getElementById("answer").innerHTML = "The correct answer was " + answers[count2] + 1;
+		document.getElementById("answer").innerHTML = "The correct answer was " + (answers[count2] + 1);
 	}
 	
 	count2++;
