@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4668cfe9-d479-4a8f-863f-116402ac9fd1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/stylesheet.css.map" afterPath="$PROJECT_DIR$/css/stylesheet.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/stylesheet.css" afterPath="$PROJECT_DIR$/css/stylesheet.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/stylesheet.scss" afterPath="$PROJECT_DIR$/css/stylesheet.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/stylesheetPrefix.css.map" afterPath="$PROJECT_DIR$/css/stylesheetPrefix.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/stylesheetPrefix.css" afterPath="$PROJECT_DIR$/css/stylesheetPrefix.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Webpage.iws" />
@@ -73,8 +69,8 @@
           <file leaf-file-name="quiz.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/quiz.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.6559486">
-                  <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+                <state vertical-scroll-proportion="0.09110396">
+                  <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
                   <folding />
                 </state>
               </provider>
@@ -87,8 +83,8 @@
           <file leaf-file-name="stylesheet.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/stylesheet.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="0" column="17" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+                <state vertical-scroll-proportion="0.018220793">
+                  <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
                   <folding />
                 </state>
               </provider>
@@ -364,7 +360,13 @@
       <option name="project" value="LOCAL" />
       <updated>1429918915342</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Live test for https fix">
+      <created>1429919161236</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1429919161236</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -408,7 +410,8 @@
     <MESSAGE value="Fixing bug with @import not loading again" />
     <MESSAGE value="Umm... I undid the last two pushes" />
     <MESSAGE value="Finished the code for the quiz" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished the code for the quiz" />
+    <MESSAGE value="Live test for https fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Live test for https fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -793,14 +796,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/quiz.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6559486">
-          <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/quiz.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -809,10 +804,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/quiz.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09110396">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/stylesheet.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="17" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+        <state vertical-scroll-proportion="0.018220793">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
           <folding />
         </state>
       </provider>
