@@ -106,8 +106,11 @@ main {
     main #check:active {
       border-style: inset; }
   main img {
-    float: right;
-    margin: 0.3em; }
+    display: block;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+    margin-left: auto;
+    margin-right: auto; }
   main section {
     float: left;
     width: 70%; }
@@ -129,23 +132,8 @@ footer {
     text-align: center; }
 
 .normalsize {
-  width: 40%; }
-  @media screen and (max-width: 1550px) {
-    .normalsize {
-      width: 50%; } }
-  @media screen and (max-width: 960px) {
-    .normalsize {
-      width: 100%;
-      margin: 0; } }
-
-.smallersize {
-  width: 40%; }
-  @media screen and (max-width: 1550px) {
-    .smallersize {
-      width: 50%; } }
-  @media screen and (max-width: 960px) {
-    .smallersize {
-      width: 50%; } }
+  width: 600px;
+  max-width: 100%; }
 
 #index section, #quiz section {
   width: 100%; }

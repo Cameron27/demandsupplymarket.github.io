@@ -1,30 +1,30 @@
 function setUpQuestion() {
-	for (var i = 0; i < 4; i++) {
-		document.getElementById("lable" + i).innerHTML = options[count1];
-		count1++;
-	}
+    for (var i = 0; i < 4; i++) {
+        document.getElementById("lable" + i).innerHTML = options[count1];
+        count1++;
+    }
 }
 
 function checkAnswer() {
 
-	if (document.getElementById("a" + answers[count2]).checked) {
-		document.getElementById("answer").innerHTML = "CORRECT";
+    if (document.getElementById("a" + answers[count2]).checked) {
+        document.getElementById("answer").innerHTML = "CORRECT";
         document.getElementById("answer").style.color = "#00ff00";
         correct++;
         answered++;
-	}
-	else {
-		document.getElementById("answer").innerHTML = "The correct answer was " + (answers[count2] + 1);
+    }
+    else {
+        document.getElementById("answer").innerHTML = "The correct answer was " + (answers[count2] + 1);
         document.getElementById("answer").style.color = "#ff0000";
         answered++;
-	}
-	
-	count2++;
+    }
+
+    count2++;
 
     if (count2 < answers.length) {
         setUpQuestion()
     }
-	else {
+    else {
         document.getElementById("final").innerHTML += "You Got " + correct + "/" + answered + " Correct";
     }
 }
