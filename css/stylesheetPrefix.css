@@ -16,15 +16,10 @@ header {
   header h1 {
     font-family: 'Roboto Slab', serif;
     font-weight: bold;
+    color: white;
     float: left;
     font-size: 40px;
     line-height: 50px; }
-    header h1 span:nth-child(1) {
-      color: white; }
-    header h1 span:nth-child(2) {
-      color: white; }
-    header h1 span:nth-child(3) {
-      color: white; }
   header nav {
     display: -webkit-box;
     display: -webkit-flex;
@@ -211,7 +206,12 @@ footer {
 
   main aside li {
     font-size: 0.8em; } }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 600px) {
+  header {
+    padding: 1px; }
+    header h1 span {
+      display: none; }
+
   main section {
     width: 100%; }
   main aside {

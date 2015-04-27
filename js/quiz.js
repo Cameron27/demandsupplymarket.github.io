@@ -3,6 +3,7 @@ function setUpQuestion() {
         document.getElementById("lable" + i).innerHTML = options[count1];
         count1++;
     }
+    document.getElementsByTagName("h4")[0].innerHTML = questions[count2];
 }
 
 function checkAnswer() {
@@ -29,6 +30,7 @@ function checkAnswer() {
     }
 }
 
+var questions = ["Question 1", "Question 2", "Question 3", "Question 4", "Question 5"];
 var answers = [2, 3, 0, 2, 1];
 var options = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T"];
 
