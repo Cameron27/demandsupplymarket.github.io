@@ -181,6 +181,12 @@ main {
     margin-right: auto;
   }
 
+  .tooltip {
+    border-bottom: 1px dotted $off_grey;
+    color: $off_grey;
+    text-decoration: none;
+  }
+
   section {
     float: left;
     width: 70%;
@@ -212,9 +218,25 @@ footer {
   }
 }
 
+.ui-tooltip { //This is the formating for the tooltip box
+  position: absolute;
+  max-width: 300px
+}
+
+.ui-tooltip-content { //This is the formating for the content of the tooltip
+  border: 1px solid $off_grey;
+  background-color: $very_dark_grey;
+  padding: 5px;
+  color: #ffffff;
+}
+
+.ui-helper-hidden-accessible { //This is needed for something strange that pops up
+  display: none;
+}
+
 .normalsize {
-  width: 600px;
-  max-width: 100%;
+  width: 100%;
+  max-width: 600px;
 }
 
 #index, #quiz {
@@ -246,6 +268,16 @@ footer {
     border-color: $off_green;
   }
 
+  .tooltip {
+    border-color: $off_green;
+    color: $off_green;
+  }
+
+  .ui-tooltip-content {
+    border-color: $off_green;
+    background-color: $very_dark_green;
+  }
+
   footer {
     border-color: $off_green;
   }
@@ -273,6 +305,16 @@ footer {
     border-color: $off_blue;
   }
 
+  .tooltip {
+    border-color: $off_blue;
+    color: $off_blue;
+  }
+
+  .ui-tooltip-content {
+    border-color: $off_blue;
+    background-color: $very_dark_blue;
+  }
+
   footer {
     border-color: $off_blue;
   }
@@ -294,6 +336,16 @@ footer {
 
   th {
     border-color: $off_red;
+  }
+
+  .tooltip {
+    border-color: $off_red;
+    color: $off_red;
+  }
+
+  .ui-tooltip-content {
+    border-color: $off_red;
+    background-color: $very_dark_red;
   }
 
   td {

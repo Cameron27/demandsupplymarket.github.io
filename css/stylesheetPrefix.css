@@ -119,6 +119,10 @@ main {
     margin-bottom: 0.3em;
     margin-left: auto;
     margin-right: auto; }
+  main .tooltip {
+    border-bottom: 1px dotted #737373;
+    color: #737373;
+    text-decoration: none; }
   main section {
     float: left;
     width: 70%; }
@@ -139,9 +143,22 @@ footer {
     line-height: 1.5em;
     text-align: center; }
 
+.ui-tooltip {
+  position: absolute;
+  max-width: 300px; }
+
+.ui-tooltip-content {
+  border: 1px solid #737373;
+  background-color: #333333;
+  padding: 5px;
+  color: #ffffff; }
+
+.ui-helper-hidden-accessible {
+  display: none; }
+
 .normalsize {
-  width: 600px;
-  max-width: 100%; }
+  width: 100%;
+  max-width: 600px; }
 
 #index section, #quiz section {
   width: 100%; }
@@ -158,6 +175,12 @@ footer {
   border-color: #007300; }
 #demand td {
   border-color: #007300; }
+#demand .tooltip {
+  border-color: #007300;
+  color: #007300; }
+#demand .ui-tooltip-content {
+  border-color: #007300;
+  background-color: #001a00; }
 #demand footer {
   border-color: #007300; }
 
@@ -173,6 +196,12 @@ footer {
   border-color: #000073; }
 #supply td {
   border-color: #000073; }
+#supply .tooltip {
+  border-color: #000073;
+  color: #000073; }
+#supply .ui-tooltip-content {
+  border-color: #000073;
+  background-color: #00001a; }
 #supply footer {
   border-color: #000073; }
 
@@ -186,6 +215,12 @@ footer {
   color: #730000; }
 #market th {
   border-color: #730000; }
+#market .tooltip {
+  border-color: #730000;
+  color: #730000; }
+#market .ui-tooltip-content {
+  border-color: #730000;
+  background-color: #1a0000; }
 #market td {
   border-color: #730000; }
 #market footer {
