@@ -15,7 +15,21 @@ function checkAnswer() {
         answered++;
     }
     else {
-        document.getElementById("answer").innerHTML = "The correct answer was " + (answers[count2] + 1);
+        switch(answers[count2]) {
+            case 0:
+                correctanswer = "A";
+                break;
+            case 1:
+                correctanswer = "B";
+                break;
+            case 2:
+                correctanswer = "C";
+                break;
+            case 3:
+                correctanswer = "D";
+                break;
+        }
+        document.getElementById("answer").innerHTML = "The correct answer was " + correctanswer;
         document.getElementById("answer").style.color = "#ff0000";
         answered++;
     }
@@ -32,6 +46,7 @@ function checkAnswer() {
 
 var questions = ["Question 1", "Question 2", "Question 3", "Question 4", "Question 5"];
 var answers = [2, 3, 0, 2, 1];
+var correctanswer;
 var options = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T"];
 
 var count1 = 0;
