@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4668cfe9-d479-4a8f-863f-116402ac9fd1" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/demand1.png" afterPath="$PROJECT_DIR$/images/demand1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/demand2.png" afterPath="$PROJECT_DIR$/images/demand2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/demand3.png" afterPath="$PROJECT_DIR$/images/demand3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/market3.png" afterPath="$PROJECT_DIR$/images/market3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/market4.png" afterPath="$PROJECT_DIR$/images/market4.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/market5.png" afterPath="$PROJECT_DIR$/images/market5.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/supply1.png" afterPath="$PROJECT_DIR$/images/supply1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/supply2.png" afterPath="$PROJECT_DIR$/images/supply2.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/supply3.png" afterPath="$PROJECT_DIR$/images/supply3.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demand.html" afterPath="$PROJECT_DIR$/demand.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/stylesheet.css.map" afterPath="$PROJECT_DIR$/css/stylesheet.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/stylesheet.css" afterPath="$PROJECT_DIR$/css/stylesheet.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/stylesheet.scss" afterPath="$PROJECT_DIR$/css/stylesheet.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/stylesheetPrefix.css.map" afterPath="$PROJECT_DIR$/css/stylesheetPrefix.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/stylesheetPrefix.css" afterPath="$PROJECT_DIR$/css/stylesheetPrefix.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supply.html" afterPath="$PROJECT_DIR$/supply.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Webpage.iws" />
@@ -41,21 +46,21 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="demand.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="demand.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/demand.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.09110396">
-                  <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+                <state vertical-scroll-proportion="9.153846">
+                  <caret line="85" column="98" selection-start-line="85" selection-start-column="98" selection-end-line="85" selection-end-column="98" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="supply.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="supply.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/supply.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="27" column="125" selection-start-line="27" selection-start-column="125" selection-end-line="27" selection-end-column="125" />
+                <state vertical-scroll-proportion="0.4169346">
+                  <caret line="110" column="98" selection-start-line="110" selection-start-column="98" selection-end-line="110" selection-end-column="98" />
                   <folding />
                 </state>
               </provider>
@@ -88,8 +93,8 @@
           <file leaf-file-name="stylesheet.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/stylesheet.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.67202574">
-                  <caret line="411" column="8" selection-start-line="411" selection-start-column="8" selection-end-line="411" selection-end-column="8" />
+                <state vertical-scroll-proportion="3.4233656">
+                  <caret line="400" column="11" selection-start-line="400" selection-start-column="11" selection-end-line="400" selection-end-column="11" />
                   <folding />
                 </state>
               </provider>
@@ -149,12 +154,12 @@
         <option value="$PROJECT_DIR$/js/pageColour.js" />
         <option value="$PROJECT_DIR$/quiz.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/supply.html" />
         <option value="$PROJECT_DIR$/market.html" />
         <option value="$PROJECT_DIR$/js/tooltips.js" />
         <option value="$PROJECT_DIR$/js/quiz.js" />
         <option value="$PROJECT_DIR$/css/stylesheet.scss" />
         <option value="$PROJECT_DIR$/demand.html" />
+        <option value="$PROJECT_DIR$/supply.html" />
       </list>
     </option>
   </component>
@@ -211,6 +216,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -291,8 +298,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -881,14 +886,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/supply.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="125" selection-start-line="27" selection-start-column="125" selection-end-line="27" selection-end-column="125" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/market.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -928,16 +925,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/stylesheet.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.67202574">
-          <caret line="411" column="8" selection-start-line="411" selection-start-column="8" selection-end-line="411" selection-end-column="8" />
+        <state vertical-scroll-proportion="3.4233656">
+          <caret line="400" column="11" selection-start-line="400" selection-start-column="11" selection-end-line="400" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demand.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09110396">
-          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+        <state vertical-scroll-proportion="9.153846">
+          <caret line="85" column="98" selection-start-line="85" selection-start-column="98" selection-end-line="85" selection-end-column="98" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/supply.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4169346">
+          <caret line="110" column="98" selection-start-line="110" selection-start-column="98" selection-end-line="110" selection-end-column="98" />
           <folding />
         </state>
       </provider>
