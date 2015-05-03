@@ -232,5 +232,16 @@ footer {
     width: 100%; }
   main aside {
     display: none; } }
+@media print {
+  header {
+    display: none; }
+
+  main {
+    width: 100%;
+    left: 0; }
+    main section {
+      width: 100%; }
+    main aside {
+      display: none; } }
 
 /*# sourceMappingURL=stylesheet.css.map */
