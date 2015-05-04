@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4668cfe9-d479-4a8f-863f-116402ac9fd1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/demand1.png" afterPath="$PROJECT_DIR$/images/demand1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/demand2.png" afterPath="$PROJECT_DIR$/images/demand2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/demand3.png" afterPath="$PROJECT_DIR$/images/demand3.png" />
+    <list default="true" id="4668cfe9-d479-4a8f-863f-116402ac9fd1" name="Default" comment="Demand and Supply Content re-work">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/market6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/market7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/Cameron.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/market1.png" afterPath="$PROJECT_DIR$/images/market1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/market2.png" afterPath="$PROJECT_DIR$/images/market2.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/market3.png" afterPath="$PROJECT_DIR$/images/market3.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/market4.png" afterPath="$PROJECT_DIR$/images/market4.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/market5.png" afterPath="$PROJECT_DIR$/images/market5.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/supply1.png" afterPath="$PROJECT_DIR$/images/supply1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/supply2.png" afterPath="$PROJECT_DIR$/images/supply2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/supply3.png" afterPath="$PROJECT_DIR$/images/supply3.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demand.html" afterPath="$PROJECT_DIR$/demand.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/market.html" afterPath="$PROJECT_DIR$/market.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quiz.html" afterPath="$PROJECT_DIR$/quiz.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/quiz.js" afterPath="$PROJECT_DIR$/js/quiz.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/stylesheet.css.map" afterPath="$PROJECT_DIR$/css/stylesheet.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/stylesheet.css" afterPath="$PROJECT_DIR$/css/stylesheet.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/stylesheet.scss" afterPath="$PROJECT_DIR$/css/stylesheet.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/stylesheetPrefix.css.map" afterPath="$PROJECT_DIR$/css/stylesheetPrefix.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/stylesheetPrefix.css" afterPath="$PROJECT_DIR$/css/stylesheetPrefix.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supply.html" afterPath="$PROJECT_DIR$/supply.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -36,11 +44,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.43061927">
       <split-first>
         <leaf>
-          <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="26" column="126" selection-start-line="26" selection-start-column="126" selection-end-line="26" selection-end-column="126" />
+                <state vertical-scroll-proportion="0.5101822">
+                  <caret line="26" column="250" selection-start-line="26" selection-start-column="250" selection-end-line="26" selection-end-column="250" />
                   <folding />
                 </state>
               </provider>
@@ -49,18 +57,18 @@
           <file leaf-file-name="demand.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/demand.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="9.153846">
-                  <caret line="85" column="98" selection-start-line="85" selection-start-column="98" selection-end-line="85" selection-end-column="98" />
+                <state vertical-scroll-proportion="-7.4615383">
+                  <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="supply.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="supply.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/supply.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.4169346">
-                  <caret line="110" column="98" selection-start-line="110" selection-start-column="98" selection-end-line="110" selection-end-column="98" />
+                <state vertical-scroll-proportion="-17.0">
+                  <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
                   <folding />
                 </state>
               </provider>
@@ -69,8 +77,8 @@
           <file leaf-file-name="market.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/market.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="51" column="44" selection-start-line="51" selection-start-column="44" selection-end-line="51" selection-end-column="44" />
+                <state vertical-scroll-proportion="-17.0">
+                  <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
                   <folding />
                 </state>
               </provider>
@@ -79,8 +87,8 @@
           <file leaf-file-name="quiz.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/quiz.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+                <state vertical-scroll-proportion="-18.961538">
+                  <caret line="29" column="117" selection-start-line="29" selection-start-column="117" selection-end-line="29" selection-end-column="117" />
                   <folding />
                 </state>
               </provider>
@@ -93,8 +101,8 @@
           <file leaf-file-name="stylesheet.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/stylesheet.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="3.4233656">
-                  <caret line="400" column="11" selection-start-line="400" selection-start-column="11" selection-end-line="400" selection-end-column="11" />
+                <state vertical-scroll-proportion="3.2797427">
+                  <caret line="180" column="19" selection-start-line="180" selection-start-column="19" selection-end-line="180" selection-end-column="19" />
                   <folding />
                 </state>
               </provider>
@@ -104,7 +112,7 @@
             <entry file="file://$PROJECT_DIR$/js/quiz.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
-                  <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+                  <caret line="50" column="218" selection-start-line="50" selection-start-column="218" selection-end-line="50" selection-end-column="218" />
                   <folding />
                 </state>
               </provider>
@@ -152,14 +160,14 @@
         <option value="$PROJECT_DIR$/css/stylesheet.css" />
         <option value="$PROJECT_DIR$/d.html" />
         <option value="$PROJECT_DIR$/js/pageColour.js" />
-        <option value="$PROJECT_DIR$/quiz.html" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/market.html" />
         <option value="$PROJECT_DIR$/js/tooltips.js" />
-        <option value="$PROJECT_DIR$/js/quiz.js" />
-        <option value="$PROJECT_DIR$/css/stylesheet.scss" />
-        <option value="$PROJECT_DIR$/demand.html" />
         <option value="$PROJECT_DIR$/supply.html" />
+        <option value="$PROJECT_DIR$/demand.html" />
+        <option value="$PROJECT_DIR$/market.html" />
+        <option value="$PROJECT_DIR$/css/stylesheet.scss" />
+        <option value="$PROJECT_DIR$/quiz.html" />
+        <option value="$PROJECT_DIR$/js/quiz.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -490,31 +498,46 @@
       <option name="project" value="LOCAL" />
       <updated>1430525544564</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Demand and Supply Content re-work">
+      <created>1430646425167</created>
+      <option name="number" value="00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1430646425167</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.09166667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928064" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928064" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928064" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928064" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928064" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928064" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39918947" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928064" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928064" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928064" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39918947" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -540,7 +563,8 @@
     <MESSAGE value="Added Key Points for the Demand page to the website" />
     <MESSAGE value="General updates" />
     <MESSAGE value="Favicon test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Favicon test" />
+    <MESSAGE value="Demand and Supply Content re-work" />
+    <option name="LAST_COMMIT_MESSAGE" value="Demand and Supply Content re-work" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -864,32 +888,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/stylesheetPrefix.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31908238">
-          <caret line="18" column="33" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="33" />
-        </state>
+    <entry file="file://$PROJECT_DIR$/favicon.ico">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/stylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.6986444">
           <caret line="236" column="0" selection-start-line="236" selection-start-column="0" selection-end-line="236" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/stylesheetPrefix.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="126" selection-start-line="26" selection-start-column="126" selection-end-line="26" selection-end-column="126" />
-          <folding />
+        <state vertical-scroll-proportion="0.42544317">
+          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/market.html">
+    <entry file="file://$PROJECT_DIR$/supply.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="51" column="44" selection-start-line="51" selection-start-column="44" selection-end-line="51" selection-end-column="44" />
+        <state vertical-scroll-proportion="-17.0">
+          <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
           <folding />
         </state>
       </provider>
@@ -904,45 +925,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/quiz.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        <state vertical-scroll-proportion="-18.961538">
+          <caret line="29" column="117" selection-start-line="29" selection-start-column="117" selection-end-line="29" selection-end-column="117" />
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/favicon.ico">
-      <provider selected="true" editor-type-id="images">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/quiz.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="28" column="34" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+          <caret line="50" column="218" selection-start-line="50" selection-start-column="218" selection-end-line="50" selection-end-column="218" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/stylesheet.scss">
+    <entry file="file://$PROJECT_DIR$/market.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.4233656">
-          <caret line="400" column="11" selection-start-line="400" selection-start-column="11" selection-end-line="400" selection-end-column="11" />
+        <state vertical-scroll-proportion="-17.0">
+          <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/demand.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="9.153846">
-          <caret line="85" column="98" selection-start-line="85" selection-start-column="98" selection-end-line="85" selection-end-column="98" />
+        <state vertical-scroll-proportion="-7.4615383">
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/supply.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4169346">
-          <caret line="110" column="98" selection-start-line="110" selection-start-column="98" selection-end-line="110" selection-end-column="98" />
+        <state vertical-scroll-proportion="0.5101822">
+          <caret line="26" column="250" selection-start-line="26" selection-start-column="250" selection-end-line="26" selection-end-column="250" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/stylesheet.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.2797427">
+          <caret line="180" column="19" selection-start-line="180" selection-start-column="19" selection-end-line="180" selection-end-column="19" />
           <folding />
         </state>
       </provider>

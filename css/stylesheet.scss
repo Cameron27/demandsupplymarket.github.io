@@ -162,7 +162,7 @@ main {
     }
   }
 
-  #check {
+  #check, #reset {
     border: 2px outset $off-grey;
     margin: 10px;
     text-align: center;
@@ -171,6 +171,10 @@ main {
     &:active {
       border-style: inset;
     }
+  }
+
+  #reset {
+    width: 100px;
   }
 
   img {

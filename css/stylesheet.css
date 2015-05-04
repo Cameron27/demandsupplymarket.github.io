@@ -93,13 +93,15 @@ main {
     main table td {
       border: 1px solid #737373;
       padding: 2px 5px; }
-  main #check {
+  main #check, main #reset {
     border: 2px outset #737373;
     margin: 10px;
     text-align: center;
     width: 200px; }
-    main #check:active {
+    main #check:active, main #reset:active {
       border-style: inset; }
+  main #reset {
+    width: 100px; }
   main img {
     display: block;
     margin-top: 0.3em;
