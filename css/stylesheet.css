@@ -127,6 +127,17 @@ footer {
   border-top: 1px solid #737373;
   float: left;
   width: 100%; }
+  footer .topbutton {
+    border: 2px outset #737373;
+    color: #000000;
+    display: block;
+    float: right;
+    margin: 3px;
+    padding: 3px;
+    text-align: center;
+    text-decoration: none; }
+    footer .topbutton:active {
+      border-style: inset; }
   footer p {
     font-size: 0.9em;
     line-height: 1.5em;
@@ -171,6 +182,8 @@ footer {
   background-color: #001a00; }
 #demand footer {
   border-color: #007300; }
+  #demand footer .topbutton {
+    border-color: #007300; }
 
 #supply header {
   background: linear-gradient(#00004d, #00001a); }
@@ -191,6 +204,8 @@ footer {
   background-color: #00001a; }
 #supply footer {
   border-color: #000073; }
+  #supply footer .topbutton {
+    border-color: #000073; }
 
 #market header {
   background: linear-gradient(#4d0000, #1a0000); }
@@ -201,16 +216,18 @@ footer {
   color: #730000; }
 #market th {
   border-color: #730000; }
+#market td {
+  border-color: #730000; }
 #market .tooltip {
   border-color: #730000;
   color: #730000; }
 #market .ui-tooltip-content {
   border-color: #730000;
   background-color: #1a0000; }
-#market td {
-  border-color: #730000; }
 #market footer {
   border-color: #730000; }
+  #market footer .topbutton {
+    border-color: #730000; }
 
 @media screen and (max-width: 960px) {
   header {

@@ -215,6 +215,21 @@ footer {
   float: left;
   width: 100%;
 
+  .topbutton {
+    border: 2px outset $off_grey;
+    color: #000000;
+    display: block;
+    float: right;
+    margin: 3px;
+    padding: 3px;
+    text-align: center;
+    text-decoration: none;
+
+    &:active {
+      border-style: inset;
+    }
+  }
+
   p {
     font-size: 0.9em;
     line-height: 1.5em;
@@ -250,115 +265,57 @@ footer {
   }
 }
 
-#demand {
+@mixin pageColor($off_color, $dark_color, $very_dark_color) {
   header {
-    background: linear-gradient($dark_green, $very_dark_green);
+    background: linear-gradient($dark_color, $very_dark_color);
   }
 
   h2 {
-    border-color: $off_green;
-    color: $off_green;
+    border-color: $off_color;
+    color: $off_color;
   }
 
   h3 {
-    color: $off_green;
+    color: $off_color;
   }
 
   th {
-    border-color: $off_green;
+    border-color: $off_color;
   }
 
   td {
-    border-color: $off_green;
+    border-color: $off_color;
   }
 
   .tooltip {
-    border-color: $off_green;
-    color: $off_green;
+    border-color: $off_color;
+    color: $off_color;
   }
 
   .ui-tooltip-content {
-    border-color: $off_green;
-    background-color: $very_dark_green;
+    border-color: $off_color;
+    background-color: $very_dark_color;
   }
 
   footer {
-    border-color: $off_green;
+    border-color: $off_color;
+
+    .topbutton {
+      border-color: $off_color;
+    }
   }
+}
+
+#demand {
+  @include pageColor($off_green, $dark_green, $very_dark_green)
 }
 
 #supply {
-  header {
-    background: linear-gradient($dark_blue, $very_dark_blue);
-  }
-
-  h2 {
-    border-color: $off_blue;
-    color: $off_blue;
-  }
-
-  h3 {
-    color: $off_blue;
-  }
-
-  th {
-    border-color: $off_blue;
-  }
-
-  td {
-    border-color: $off_blue;
-  }
-
-  .tooltip {
-    border-color: $off_blue;
-    color: $off_blue;
-  }
-
-  .ui-tooltip-content {
-    border-color: $off_blue;
-    background-color: $very_dark_blue;
-  }
-
-  footer {
-    border-color: $off_blue;
-  }
+  @include pageColor($off_blue, $dark_blue, $very_dark_blue)
 }
 
 #market {
-  header {
-    background: linear-gradient($dark_red, $very_dark_red);
-  }
-
-  h2 {
-    border-color: $off_red;
-    color: $off_red;
-  }
-
-  h3 {
-    color: $off_red;
-  }
-
-  th {
-    border-color: $off_red;
-  }
-
-  .tooltip {
-    border-color: $off_red;
-    color: $off_red;
-  }
-
-  .ui-tooltip-content {
-    border-color: $off_red;
-    background-color: $very_dark_red;
-  }
-
-  td {
-    border-color: $off_red;
-  }
-
-  footer {
-    border-color: $off_red;
-  }
+  @include pageColor($off_red, $dark_red, $very_dark_red)
 }
 
 @media screen and (max-width: 960px) {
