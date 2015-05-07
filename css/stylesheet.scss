@@ -165,7 +165,6 @@ main {
   #check, #reset {
     border: 2px outset $off-grey;
     margin: 10px;
-    max-width: 100%;
     text-align: center;
     width: 200px;
 
@@ -180,7 +179,10 @@ main {
 
   img {
     display: block;
-    margin: 0.3em auto;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .tooltip {
@@ -239,12 +241,12 @@ footer {
   }
 }
 
-.ui-tooltip { //This is the formatting for the tooltip box
+.ui-tooltip { //This is the formating for the tooltip box
   position: absolute;
   max-width: 300px
 }
 
-.ui-tooltip-content { //This is the formatting for the content of the tooltip
+.ui-tooltip-content { //This is the formating for the content of the tooltip
   border: 1px solid $off_grey;
   background-color: $very_dark_grey;
   padding: 5px;
