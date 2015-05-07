@@ -239,6 +239,9 @@ footer {
 
   main aside li {
     font-size: 0.8em; } }
+@media screen and (max-width: 800px) {
+  table {
+    font-size: 0.8em; } }
 @media screen and (max-width: 600px) {
   header {
     padding: 1px; }
@@ -249,6 +252,9 @@ footer {
     width: 100%; }
   main aside {
     display: none; } }
+@media screen and (max-width: 500px) {
+  table {
+    font-size: 0.6em; } }
 @media print {
   header {
     display: none; }
