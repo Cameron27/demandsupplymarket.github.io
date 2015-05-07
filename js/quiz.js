@@ -5,11 +5,10 @@ function quiz() {
             for (var i = 0; i < 4; i++) {
                 document.getElementById("lable" + i).innerHTML = options[count1];
                 count1++;
-                document.getElementById("check").value="Check Answer";
+                document.getElementById("check").value = "Check Answer";
             }
             document.getElementsByTagName("h4")[0].innerHTML = questions[count2];
-        }
-        else {
+        } else {
 
             document.getElementById("answer").innerHTML = "You Got " + correct + "/" + answered + " Correct";
             document.getElementById("answer").style.color = "#000000";
@@ -25,8 +24,7 @@ function quiz() {
             document.getElementById("answer").style.color = "#00ff00";
             correct++;
             answered++;
-        }
-        else {
+        } else {
             switch (answers[count2]) {
                 case 0:
                     correctAnswer = "A";
@@ -48,7 +46,7 @@ function quiz() {
 
         count2++;
         nextQuestion = false;
-        document.getElementById("check").value="Next Question";
+        document.getElementById("check").value = "Next Question";
     }
 
     var answered;
@@ -62,7 +60,7 @@ function quiz() {
     var options;
     var questions;
     document.getElementById("answer").innerHTML = " ";
-    document.getElementById("check").value="Check Answer";
+    document.getElementById("check").value = "Check Answer";
 
 
     answered = 0;
@@ -77,17 +75,16 @@ function quiz() {
 
     setUpQuestion();
 
-    document.getElementById("check").onclick = function () {
+    document.getElementById("check").onclick = function() {
         if (nextQuestion == true) {
             checkAnswer();
-        }
-        else {
+        } else {
             setUpQuestion();
         }
     };
 }
 
 quiz();
-document.getElementById("reset").onclick = function () {
+document.getElementById("reset").onclick = function() {
     quiz();
 };

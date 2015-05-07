@@ -124,15 +124,17 @@ main {
     color: #737373;
     text-decoration: none; }
   main section {
-    float: left;
-    width: 70%; }
-    main section div {
-      padding: 0.5em; }
-  main aside {
-    float: left;
-    width: 30%; }
-    main aside div {
-      padding: 0.5em; }
+    overflow: auto; }
+    main section article {
+      float: left;
+      width: 70%; }
+      main section article div {
+        padding: 0.5em; }
+    main section aside {
+      float: left;
+      width: 30%; }
+      main section aside div {
+        padding: 0.5em; }
 
 footer {
   border-top: 1px solid #737373;
@@ -264,7 +266,7 @@ footer {
     header h1 span {
       display: none; }
 
-  main section {
+  main article {
     width: 100%; }
   main aside {
     display: none; } }

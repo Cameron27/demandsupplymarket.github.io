@@ -190,20 +190,24 @@ main {
   }
 
   section {
-    float: left;
-    width: 70%;
+    overflow: auto;
 
-    div {
-      padding: 0.5em;
+    article {
+      float: left;
+      width: 70%;
+
+      div {
+        padding: 0.5em;
+      }
     }
-  }
 
-  aside {
-    float: left;
-    width: 30%;
+    aside {
+      float: left;
+      width: 30%;
 
-    div {
-      padding: 0.5em;
+      div {
+        padding: 0.5em;
+      }
     }
   }
 }
@@ -332,7 +336,6 @@ footer {
   }
 
   main {
-
     aside {
       li {
         font-size: 0.8em;
@@ -353,7 +356,7 @@ footer {
   }
 
   main {
-    section {
+    article {
       width: 100%;
     }
 
