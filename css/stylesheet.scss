@@ -383,6 +383,11 @@ footer {
   main {
     width: 100%;
     left: 0;
+    font-family: Georgia, serif;
+
+    header {
+      border: none;
+    }
 
     section {
       width: 100%;
@@ -391,5 +396,9 @@ footer {
     aside {
       display: none;
     }
+  }
+
+  footer {
+    display: none;
   }
 }

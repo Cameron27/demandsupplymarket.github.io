@@ -280,10 +280,16 @@ footer {
 
   main {
     width: 100%;
-    left: 0; }
+    left: 0;
+    font-family: Georgia, serif; }
+    main header {
+      border: none; }
     main section {
       width: 100%; }
     main aside {
-      display: none; } }
+      display: none; }
+
+  footer {
+    display: none; } }
 
 /*# sourceMappingURL=stylesheetPrefix.css.map */
